@@ -15,8 +15,8 @@ void main() {
   };
   for (var info in world.keys) {
     var country = world[info];
-    print('Country name is : $country');
-    print('Capital city of : $country["capitalCity"]');
-    print('Currency : $country["Currency"]');
+    print('Country name is : $info');
+    print('Capital city is : ${country["capitalCity"]}');
+    print('Currency is : ${country["currency"]}');
   }
 }
