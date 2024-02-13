@@ -9,7 +9,7 @@ void main() {
     if (number < smallestValue) {
       smallestValue = number;
     }
-  } //for smallest value
+  } //for greatest value
   for (var number2 in numbers) {
     if (number2 > greatesttValue) {
       greatesttValue = number2;

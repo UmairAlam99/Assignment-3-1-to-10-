@@ -13,7 +13,14 @@ void main() {
     "Faseeh",
     "osama"
   ];
-  List<String> newlist = names.toSet().toList();
-  print("with duplication: $names ");
-  print("without duplication:  $newlist");
+  List<String> newList = [];
+  List<String> removerList = [];
+  for (String k in names) {
+    if (!removerList.contains(k)) {
+      newList.add(k);
+      removerList.add(k);
+    }
+  }
+  print("With duplication: $names");
+  print("With duplication: $newList");
 }

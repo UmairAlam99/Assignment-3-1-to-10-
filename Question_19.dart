@@ -7,10 +7,10 @@ void main() {
   Map<String, dynamic> Products = {
     "name": "Redmi Mobile",
     "Price": 50000,
-    "Quantity": 0
+    "Quantity": 5
   };
   if (Products["Quantity"] > 0) {
-    print(Products["name"] + " " + "is in Stock");
+    print(Products["name"] +" "+ "is in Stock");
   } else {
     print(Products["name"] + " " + "is out of Stock");
   }

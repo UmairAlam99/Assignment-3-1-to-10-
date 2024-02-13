@@ -11,10 +11,10 @@ void main() {
     "shaheer",
     "faizan"
   ];
-  print(list);
+  print("Original list: $list");
   List<String> newList = [];
   for (var i = list.length-1; i >= 0; i--) {
     newList.add(list[i]);
   }
-  print(newList);
+  print("New list: $newList");
 }
